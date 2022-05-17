@@ -1,0 +1,9 @@
+{
+  "title": "Domain A",
+  "list": {
+    "loading": "loading list",
+    "error": "Could not load list.",
+    "empty": "No data available.",
+    "entity": "list entry with name: {{name}}"
+  }
+}

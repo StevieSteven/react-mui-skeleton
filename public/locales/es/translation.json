@@ -1,0 +1,19 @@
+{
+  "startPage": {
+    "title": "página de inicio",
+    "description": "Esta es la página de inicio que utiliza contenido traducido proporcionado por i18next.",
+    "navigation": "Puede navegar a los diferentes dominios usando los botones de arriba.",
+    "goTo": {
+      "domainA": "ir al dominio A",
+      "domainB": "ir al dominio B",
+      "notExistingRoute": "intente abrir una subpágina no existente"
+    }
+  },
+  "notFoundPage": {
+    "title": "la pagina no existe",
+    "description": "No se pudo encontrar la página.",
+    "goTo": {
+      "startPage": "volver a la página de inicio"
+    }
+  }
+}

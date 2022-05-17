@@ -1,0 +1,9 @@
+{
+  "title": "Domain A",
+  "list": {
+    "loading": "Liste wird geladen",
+    "error": "Liste konnte nicht geladen werden",
+    "empty": "Keine Einträge verfügbar",
+    "entity": "Listeneintrag mit Name: {{name}}"
+  }
+}

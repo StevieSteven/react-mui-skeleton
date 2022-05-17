@@ -1,0 +1,19 @@
+{
+  "startPage": {
+    "title": "Startseite",
+    "description": "Das ist die Startseite welche i18next für die Übersetzungen nutzt.",
+    "navigation": "Du kannst in die verschiedenen Domains wechseln indem die Buttons unter diesem Text nutzt.",
+    "goTo": {
+      "domainA": "zu Domain A wechseln",
+      "domainB": "zu Domain B wechseln",
+      "notExistingRoute": "nicht verfügbare Unterseite öffnen"
+    }
+  },
+  "notFoundPage": {
+    "title": "Seite existiert nicht",
+    "description": "Seite konnte nicht gefunden werden",
+    "goTo": {
+      "startPage": "Zurück zur Startseite"
+    }
+  }
+}

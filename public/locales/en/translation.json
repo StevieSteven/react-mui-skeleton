@@ -1,0 +1,19 @@
+{
+  "startPage": {
+    "title": "start page",
+    "description": "This is the start page using translated content provided by i18next.",
+    "navigation": "You can navigate to the different domains using the buttons above.",
+    "goTo": {
+      "domainA": "go to domain A",
+      "domainB": "go to domain B",
+      "notExistingRoute": "try to open non existing sub page"
+    }
+  },
+  "notFoundPage": {
+    "title": "Page does not exists",
+    "description": "Could not found page.",
+    "goTo": {
+      "startPage": "back to start page"
+    }
+  }
+}
