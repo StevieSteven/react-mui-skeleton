@@ -1,0 +1,15 @@
+{
+  "loading": "cargando detalles",
+  "error": "No se pudieron cargar los detalles.",
+  "description": {
+    "title": "descripción",
+    "noDescription": "No hay descripción disponible"
+  },
+  "tags": {
+    "title": "etiquetas",
+    "noTags": "No hay etiquetas disponible"
+  },
+  "goTo": {
+    "overview": "de regreso a la visión general"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "loading": "加載詳細信息",
+  "error": "無法加載詳細信息",
+  "description": {
+    "title": "描述",
+    "noDescription": "沒有可用的描述"
+  },
+  "tags": {
+    "title": "標籤",
+    "noTags": "沒有可用的標籤"
+  },
+  "goTo": {
+    "overview": "返回概覽"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "loading": "Details werden geladen",
+  "error": "Details konnten nicht geladen werden",
+  "description": {
+    "title": "Beschreibung",
+    "noDescription": "Keine Beschreibung verfügbar"
+  },
+  "tags": {
+    "title": "Tags",
+    "noTags": "Keine Tags verfügbar"
+  },
+  "goTo": {
+    "overview": "Zurück zur Übersicht"
+  }
+}

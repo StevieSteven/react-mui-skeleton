@@ -1,3 +1,26 @@
 {
-  "title": "Domain B overview"
+  "title": "Domain B Übersicht",
+  "table": {
+    "loading": "Daten werden geladen",
+    "error": "Daten konnten nicht geladen werden",
+    "header": {
+      "id": "ID",
+      "name": "Name",
+      "description": "Beschreibung",
+      "tags": "Tags",
+      "actions": "Aktionen"
+    },
+    "body": {
+      "open": "Details öffnen"
+    }
+  },
+  "form": {
+    "title": "Element hinzufügen",
+    "labels": {
+      "name": "Name",
+      "description": "Beschreibung",
+      "tags": "Tags"
+    },
+    "submit": "Anlegen"
+  }
 }

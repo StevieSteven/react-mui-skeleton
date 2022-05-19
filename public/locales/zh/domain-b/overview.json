@@ -1,0 +1,26 @@
+{
+  "title": "域 B 概述",
+  "table": {
+    "loading": "加載數據中",
+    "error": "無法加載數據",
+    "header": {
+      "id": "標識符",
+      "name": "姓名",
+      "description": "描述",
+      "tags": "標籤",
+      "actions": "行動"
+    },
+    "body": {
+      "open": "打開詳細信息"
+    }
+  },
+  "form": {
+    "title": "添加元素",
+    "labels": {
+      "name": "姓名",
+      "description": "描述",
+      "tags": "標籤"
+    },
+    "submit": "提交"
+  }
+}

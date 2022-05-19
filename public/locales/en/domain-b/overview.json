@@ -1,0 +1,26 @@
+{
+  "title": "domain B overview",
+  "table": {
+    "loading": "loading data",
+    "error": "Could not load data",
+    "header": {
+      "id": "ID",
+      "name": "name",
+      "description": "description",
+      "tags": "tags",
+      "actions": "actions"
+    },
+    "body": {
+      "open": "open details"
+    }
+  },
+  "form": {
+    "title": "add element",
+    "labels": {
+      "name": "name",
+      "description": "description",
+      "tags": "tags"
+    },
+    "submit": "submit"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "startPage": {
+    "title": "首頁",
+    "description": "這是使用 i18next 提供的翻譯內容的起始頁。",
+    "navigation": "您可以使用上面的按鈕導航到不同的域。",
+    "goTo": {
+      "domainA": "去域A",
+      "domainB": "去域B",
+      "notExistingRoute": "嘗試打開不存在的子頁面"
+    }
+  },
+  "notFoundPage": {
+    "title": "頁面不存在",
+    "description": "找不到頁面",
+    "goTo": {
+      "startPage": "返回開始頁面"
+    }
+  }
+}

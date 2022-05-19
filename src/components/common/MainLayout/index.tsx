@@ -1,5 +1,5 @@
 import {AppBar, Button, Container, Menu, MenuItem, Toolbar, Typography} from "@mui/material";
-import {MouseEventHandler, ReactNode, useState, useTransition} from "react";
+import {MouseEventHandler, ReactNode, useState} from "react";
 import {useTranslation} from "react-i18next";
 import {useNavigate} from "react-router-dom";
 
@@ -62,6 +62,7 @@ const LngButton = () => {
                 <MenuItem onClick={() => changeLng("en")}>english</MenuItem>
                 <MenuItem onClick={() => changeLng("es")}>español</MenuItem>
                 <MenuItem onClick={() => changeLng("de")}>deutsch</MenuItem>
+                <MenuItem onClick={() => changeLng("zh")}>chinese</MenuItem>
             </Menu>
         </div>
     );

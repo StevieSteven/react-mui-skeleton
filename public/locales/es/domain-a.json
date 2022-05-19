@@ -1,0 +1,9 @@
+{
+  "title": "Dominio A",
+  "list": {
+    "loading": "la lista de carga",
+    "error": "No se pudo cargar la lista.",
+    "empty": "Datos no disponibles.",
+    "entity": "entrada de lista con nombre: {{name}}"
+  }
+}

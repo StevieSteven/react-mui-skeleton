@@ -1,0 +1,26 @@
+{
+  "title": "descripción general del dominio B",
+  "table": {
+    "loading": "cargando datos",
+    "error": "No se pudieron cargar los datos",
+    "header": {
+      "id": "ID",
+      "name": "nombre",
+      "description": "descripción",
+      "tags": "etiquetas",
+      "actions": "comportamiento"
+    },
+    "body": {
+      "open": "abrir detalles"
+    }
+  },
+  "form": {
+    "title": "añadir elemento",
+    "labels": {
+      "name": "nombre",
+      "description": "descripción",
+      "tags": "etiquetas"
+    },
+    "submit": "entregar"
+  }
+}

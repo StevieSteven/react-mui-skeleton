@@ -1,0 +1,15 @@
+{
+  "loading": "loading details",
+  "error": "Could not load details.",
+  "description": {
+    "title": "description",
+    "noDescription": "no description available"
+  },
+  "tags": {
+    "title": "tags",
+    "noTags": "no tags available"
+  },
+  "goTo": {
+    "overview": "back to overview"
+  }
+}
