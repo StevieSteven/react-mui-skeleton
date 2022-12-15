@@ -1,4 +1,4 @@
-import {useMutation, useQuery, useQueryClient} from "react-query";
+import {useMutation, useQuery, useQueryClient} from "@tanstack/react-query";
 import {callAddDomainBEntry, callGetDomainBEntities, callGetDomainBEntry} from "../../rest/domainB/domainBCalls";
 import {mapDomainBEntityResponseToDomainBEntity} from "./domainBMapper";
 
@@ -16,17 +16,19 @@ export interface DomainBAddEntryInput {
 }
 
 const queryListSelector = "domain-B-list"
-const queryDetailsSelector = (id: number) => `domain-B-details-${id}`
+const queryDetailsSelector = "domain-B-details"
 
-export const useGetEntities = () => useQuery<DomainBEntity[]>(queryListSelector, () => {
-    return callGetDomainBEntities()
+export const useGetEntities = () => useQuery<DomainBEntity[]>({
+    queryKey: [queryListSelector],
+    queryFn: () => callGetDomainBEntities()
         .then(data => Promise.resolve(data.map(it => mapDomainBEntityResponseToDomainBEntity(it))))
 });
 
-export const useGetEntity = (id: number) => useQuery<DomainBEntity>(queryDetailsSelector(id), () => {
-    return callGetDomainBEntry(id)
-        .then(data => Promise.resolve(mapDomainBEntityResponseToDomainBEntity(data)));
-});
+export const useGetEntity = (id: number) => useQuery<DomainBEntity>({
+    queryKey: [queryDetailsSelector, id],
+    queryFn: () => callGetDomainBEntry(id)
+            .then(data => Promise.resolve(mapDomainBEntityResponseToDomainBEntity(data)))
+    });
 
 export const useAddEntityMutation = () => {
     const queryClient = useQueryClient();
@@ -39,7 +41,7 @@ export const useAddEntityMutation = () => {
         }).then(data => Promise.resolve(mapDomainBEntityResponseToDomainBEntity(data)));
     }, {
         onSuccess: (newData) => {
-            queryClient.setQueriesData(queryListSelector, (oldData: DomainBEntity[] = []) => [...oldData, newData]);
+            queryClient.setQueriesData([queryListSelector], (oldData: DomainBEntity[] = []) => [...oldData, newData]);
         },
     });
 };
