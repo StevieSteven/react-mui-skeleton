@@ -1,4 +1,4 @@
-import {DomainBEntityResponse} from "../../rest/domainB/domainBCalls";
+import {DomainBEntityResponse} from "../../apiClient/domainB/domainBCalls";
 import {DomainBEntity} from "./domainBQueries";
 
 export const mapDomainBEntityResponseToDomainBEntity = (response: DomainBEntityResponse): DomainBEntity => ({

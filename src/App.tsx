@@ -1,6 +1,6 @@
 import React from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import {MainLayout} from "./components/common/MainLayout";
+import {MainLayout} from "./layouts/MainLayout";
 import {StartPage} from "./pages/StartPage";
 import {DomainAPage} from "./pages/DomainAPage";
 import {NotFoundPage} from "./pages/NotFoundPage";

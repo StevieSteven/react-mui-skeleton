@@ -1,5 +1,5 @@
 import {useMutation, useQuery, useQueryClient} from "@tanstack/react-query";
-import {callAddDomainBEntry, callGetDomainBEntities, callGetDomainBEntry} from "../../rest/domainB/domainBCalls";
+import {callAddDomainBEntry, callGetDomainBEntities, callGetDomainBEntry} from "../../apiClient/domainB/domainBCalls";
 import {mapDomainBEntityResponseToDomainBEntity} from "./domainBMapper";
 
 export interface DomainBEntity {

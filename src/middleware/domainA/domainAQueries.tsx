@@ -1,5 +1,5 @@
 import {useQuery} from "@tanstack/react-query";
-import {callGetDomainAEntities} from "../../rest/domainA/domainACalls";
+import {callGetDomainAEntities} from "../../apiClient/domainA/domainACalls";
 
 
 export interface DomainAEntity {

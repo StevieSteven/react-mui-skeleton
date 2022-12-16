@@ -4,6 +4,10 @@ This project is an example for building productive apps with react.
 
 It shows two different domains (domain A and domain B). Each domain has its own page, components middleware and REST client layer.
 
+## General architecture
+
+![Architecture](frontend-architecture.drawio.png)
+
 ## Most important scripts
 
 In the project directory, you can run:
